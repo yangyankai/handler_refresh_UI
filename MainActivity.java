@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements View.OnClickListener
 					text.setText("NICE TO MEET YOU");
 					break;
 				default:
-					Log.e("aaa", "����");
+					Log.e("aaa", "²âÊÔ");
 					break;
 			}
 		}
@@ -66,6 +66,8 @@ public class MainActivity extends Activity implements View.OnClickListener
 					@Override
 					public void run()
 					{
+						// 如果有循环 Message 放到循环里面while()
+						
 						Message message = new Message();
 						message.what = UPDATE_TEXT;
 
